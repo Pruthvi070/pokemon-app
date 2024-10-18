@@ -1,0 +1,28 @@
+/* src/components/PokemonSearch.css */
+.pokemon-search {
+    margin-bottom: 2rem;
+  }
+  
+  .pokemon-search input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    width: 250px;
+  }
+  
+  .pokemon-search button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #ff5e62;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pokemon-search button:hover {
+    background-color: #ff4b4e;
+  }
